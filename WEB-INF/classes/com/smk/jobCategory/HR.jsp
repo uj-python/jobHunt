@@ -67,7 +67,7 @@
             ResultSet rst1 = null;
             Statement stmt1 = null;            
             try {
-                String url1 = "jdbc:mysql://localhost:3306/jobhunt?user=root&password=root";                
+                String url1 = "jdbc:mysql://localhost:3306/jobhunt?autoReconnect=true&useSSL=false";                
                 con1 = DriverManager.getConnection(url1);
                 stmt1 = con1.createStatement();
                 rst1 = stmt1.executeQuery("SELECT DATE_FORMAT(date,'%e-%m-%Y'),companyname,position,eligibility,location FROM hr");
@@ -99,7 +99,7 @@
             ResultSet rst2 = null;
             Statement stmt2 = null;            
             try {
-                String url2 = "jdbc:mysql://localhost:3306/jobhunt?user=root&password=root";                
+                String url2 = "jdbc:mysql://localhost:3306/jobhunt?autoReconnect=true&useSSL=false";                
                 con2 = DriverManager.getConnection(url2);
                 stmt2 = con2.createStatement();
                 rst2 = stmt2.executeQuery("SELECT DATE_FORMAT(date,'%e-%m-%Y'),companyname,position,eligibility,location FROM payroll");
