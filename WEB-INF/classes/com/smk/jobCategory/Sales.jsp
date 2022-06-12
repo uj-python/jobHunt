@@ -30,12 +30,12 @@
                 <value expr="_prompt"/> press <value expr="_dtmf"/>, 
             </enumerate>
         </prompt>    
-        <!--<choice next="http://localhost:8084/jobHunt/JRole/trainingCIT.vxml" dtmf="1">-->
-        <choice next="http://localhost:8084/jobHunt/jobCategory/ComputerIT.jsp" dtmf="7">
+        <!--<choice next="jobHunt/JRole/trainingCIT.vxml" dtmf="1">-->
+        <choice next="jobHunt/jobCategory/ComputerIT.jsp" dtmf="7">
             Previous Menu.            
         </choice>
-        <!--<choice next="http://localhost:8084/jobHunt/JRole/trainingCIT.vxml" dtmf="1">-->
-        <choice next="http://localhost:8084/jobHunt/Main.jsp" dtmf="8">
+        <!--<choice next="jobHunt/JRole/trainingCIT.vxml" dtmf="1">-->
+        <choice next="jobHunt/Main.jsp" dtmf="8">
             Main Menu.            
         </choice>            
     </menu>  

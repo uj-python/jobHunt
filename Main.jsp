@@ -25,23 +25,23 @@ please press the related number. to choose the job  category.
       .Computers and I T.
     </choice>
 
-    <choice next="http://localhost:8080/jobHunt/jobCategory/Medical.jsp" dtmf="2">
+    <choice next="jobHunt/jobCategory/Medical.jsp" dtmf="2">
     .Medical.
     </choice>
 
-    <choice next="http://localhost:8080/jobHunt/jobCategory/Sales.jsp" dtmf="3">
+    <choice next="jobHunt/jobCategory/Sales.jsp" dtmf="3">
     .Sales and Marketing.
     </choice>
 
-    <choice next="http://localhost:8080/jobHunt/jobCategory/BPO.jsp" dtmf="4">
+    <choice next="jobHunt/jobCategory/BPO.jsp" dtmf="4">
     .B.P.O.
     </choice>
 
-    <choice next="http://localhost:8080/jobHunt/jobCategory/Accounting.jsp" dtmf="5">
+    <choice next="jobHunt/jobCategory/Accounting.jsp" dtmf="5">
     .Accounting and Tax.
     </choice>
 
-    <choice next="http://localhost:8080/jobHunt/jobCategory/HR.jsp" dtmf="6">
+    <choice next="jobHunt/jobCategory/HR.jsp" dtmf="6">
     .H. R and Top management.
     </choice>
 
